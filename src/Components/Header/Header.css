@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Align items to the left and right */
+    box-shadow: rgba(218, 218, 218, 0.45) 0px 25px 20px -20px;
+
+}
+
+.logo {
+    margin: 0;
+    /* Remove any auto centering */
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 24px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.links {
+    height: 100%;
+    display: flex;
+}
+
+.link {
+    color: rgb(122, 122, 122);
+    margin: 0px 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.link:hover
+{
+    color: #ff5200;
+}
