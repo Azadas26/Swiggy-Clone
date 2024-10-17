@@ -14,7 +14,7 @@ function Cards(props) {
     
     return (
         <div className="body-card">
-            <div className="bg-image" style={{ backgroundImage: `url(${IMage_Link + cloudinaryImageId})`, }}>
+            <div className="bg-image" style={{ backgroundImage: `url(${IMage_Link + cloudinaryImageId})` }}>
                 <button className="secial-offer">
                     Free Delivery
                 </button>
@@ -27,7 +27,7 @@ function Cards(props) {
                 <span className="fa fa-star checked" id='rating-star'></span>
                 <span id='num-rating'>{avgRating} <span id='rating-time'>&#128900; {sla.slaString}</span></span>
                 <div className='res-description'>
-                    <p id='items'>{cuisines.join(', ')}</p>
+                    <p id='items'> {cuisines.length > 3 ? `${cuisines.slice(0,  2).join(', ')} and more` : cuisines.join(', ')},...</p>
                     <p id='place'>{locality}</p>
                 </div>
             </div>

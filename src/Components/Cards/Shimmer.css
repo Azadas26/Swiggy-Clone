@@ -1,0 +1,45 @@
+.shimmer-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 340px;
+    height: 328px;
+}
+.shimmer-image {
+    width: 300px;
+}
+
+.card-faid {
+    height: 170px;
+}
+
+.thick-line1 {
+    margin: 12px 12px;
+    height: 5px;
+    /* Set the thickness */
+    background-color: rgb(190, 190, 190);
+}
+
+.thick-line2 {
+    width: 25%;
+    margin: 12px 12px;
+    height: 5px;
+    /* Set the thickness */
+    background-color: rgb(190, 190, 190);
+}
+
+.thick-line3 {
+    width: 50%;
+    margin: 12px 12px;
+    height: 5px;
+    /* Set the thickness */
+    background-color: rgb(190, 190, 190);
+}
+
+.thick-line4 {
+    width: 75%;
+    margin: 12px 12px;
+    height: 5px;
+    /* Set the thickness */
+    background-color: rgb(190, 190, 190);
+}
